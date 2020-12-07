@@ -24,6 +24,8 @@ const obj = {
 
 console.log(obj.name)
 
+
+
 let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
 console.log(arr[1]);*/
 
@@ -58,3 +60,39 @@ console.log(`https://someurl.com/${category}/5`);
 
 const user = 'Ivan';
 alert(`Hello, ${user}`);*/
+
+/*Lesson_9 Операторы*/ 
+console.log('array' + "- Object");
+console.log(4 + + "5");
+
+let incr = 10,
+    decr = 10;
+
+//incr++;
+//decr--;    
+/*Префикная форма инкремента и декремента*/
+console.log(++incr);
+console.log(--decr);
+
+console.log(5%2);
+console.log(2*4 == 8);
+console.log(2*4 === '8');
+
+//операор "и"
+const isChecked = true,
+      isClose = true;
+      
+console.log(isChecked && isClose);      
+
+//оператор "или" 
+const isChecked = true,
+      isClose = false;
+      
+console.log(isChecked || isClose);   
+
+//оператор отрицания
+const isChecked = true,
+      isClose = false;
+console.log(isChecked || !isClose);        
+
+
